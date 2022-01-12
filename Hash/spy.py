@@ -7,6 +7,6 @@ def solution(phone_book):
             if phone_book[j].startswith(phone_book[i]):
                 answer = False
                 return answer
-    return answer 
+    return print(answer)
   
 solution(["119", "97674223", "1195524421", "121"])
